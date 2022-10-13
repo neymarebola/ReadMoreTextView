@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WrapLongText</string>
+    <string name="resizable_text_read_more">Read more</string>
+    <string name="resizable_text_read_less">Read less</string>
+</resources>

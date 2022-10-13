@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="One common complaint we've heard from our experienced users is that the inbox is difficult to use due to the notifications being immediately marked as read after opening the inbox dropdown. Statistics confirm that the problem exists: there are over 5k active users that have over 50 unread notifications, and even some of our active moderators have stopped using the inbox. Moreover, those stats don't even include people who just open and close their inbox without even reading their notifications, just to make the unread indicator go away."
+        android:textColor="@color/black"
+        app:colorClickableText="@color/teal_200"
+        app:trimExpandedText="Read more"
+        app:trimLength="40"
+        app:trimMode="trimModeLength" />
+
+</LinearLayout>
